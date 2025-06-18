@@ -10,3 +10,21 @@ p{
     color:coral;
     font-size: 30px;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  header img {
+    width: 100px;
+  }
+.t_capitilize{
+  text-decoration: underline;
+}
