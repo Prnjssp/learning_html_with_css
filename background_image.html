@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adding background image</title>
+    <style>
+        .header {
+      display: flex;
+      align-items: center;
+      gap: 10px; /* space between logo and heading */
+      padding: 10px;
+      border: 4px solid black;
+    }
+
+    .header img {
+      width: 100px;  /* Adjust logo size */
+      height: auto;
+    }
+
+    .header h1 {
+        background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+      border: 4px solid black;
+
+    }
+
+        body{
+            /* background-color: black; */
+        background-image: url("images/car.jpg");  
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+        .heading1{
+            color: white;
+            text-align:center;
+            text-shadow: 3px 4px 5px grey;
+         
+        }
+         header img {
+    width: 100px;
+  }
+.t_capitilize{
+  text-decoration: underline;
+}
+        .text1{
+            color:black;
+            padding:5px;
+            /* background-color: white; */
+
+        }
+          section {
+      padding: 20px;
+      max-width: 1000px;
+      margin: 0px;
+    }
+    .shadow{
+    
+    }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+    <img class="shadow" src="images/TAMS.png" alt="Logo">
+<header>
+    <h1 class="heeding1 t_capitilize">Traffic Accident Management System (TAMS)</h1>
+    <p>Swift Roads, Safe Lives</p>
+    </header></div>
+     <section id="overview">
+    <h2>Overview</h2>
+    <p>TAMS is a web-based platform developed to monitor, manage, and respond to traffic accidents in real time. It helps improve emergency services, road safety, and policy-making through data insights.</p>
+  </section>
+  <section id="features">
+    <h2>Key Features</h2>
+    <ul>
+      <li>📝 Accident Reporting Portal with GPS & media upload</li>
+      <li>🗺️ Live Traffic Map with accident hotspots</li>
+      <li>📊 Analytics Dashboard for trend analysis</li>
+      <li>🚑 Auto-alert system for emergency response</li>
+      <li>📁 Case Management with unique tracking IDs</li>
+      <li>👮 User roles: Public, Police, Admin, Medical</li>
+    </ul>
+  </section>
+</body>
+</html>
